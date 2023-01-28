@@ -8,18 +8,21 @@ body {
 
 #bodyheader {
     height: 65vh;
-    background-image: url(img/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    opacity: 0.8;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    opacity: .8;
     padding-top: 1.2rem;
 }
 
 #name {
-    color: white;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 10vh;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
 }
 
 /* navigation list */
@@ -28,30 +31,33 @@ body {
     list-style: none;
     padding-left: 0;
     margin-top: 0;
-    padding-top: 20px;
-}
-
-.textcenter {
-    text-align: center;
 }
 
 .horizontal-list li {
     display: inline-block;
     margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
 }
 
 .horizontal-list li a {
     text-decoration: none;
     color: white;
 }
-
+.nav-menu li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid black;
+}
 .horizontal-list li a:hover {
     border-bottom: 1px solid black;
     color: #fecbcb;
-    transition: color .5, border-bottom 4s;
-
 }
-
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+.textcenter {
+    text-align: center;
+}
 /* social icons */
 
 #social img {
@@ -113,9 +119,8 @@ section {
 }
 
 #skill {
-    width: 60%;
+    width: auto;
     margin: auto;
-    min-width: max-content;
 }
 
 #Education {
@@ -128,12 +133,18 @@ section {
 
 /* skill box classes */
 
+
+#skills-division{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .heading {
     font-size: 2rem;
     width: auto;
     padding: 20px 10px 10px;
     font-weight: 400;
-    margin-bottom: 75px;
+    margin: 20px;
     color: #2857a4;
 }
 
@@ -141,6 +152,7 @@ section {
     width: 70%;
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
     justify-content: space-between;
     align-items: center;
     justify-content: center;
@@ -226,9 +238,8 @@ section {
 #Contact {
     background-image: linear-gradient(to top right, rgb(31, 238, 224), blue, rgb(157, 1, 157));
     color: white;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 0%;
+    padding-bottom: 40px;
+    margin-bottom: 0;
 }
 
 #c-heading {
@@ -239,9 +250,137 @@ section {
     justify-content: center;
 }
 
-.c-div {
-    height: auto;
-    width: 40%;
+#contact-container {
     display: flex;
+}
+
+.details{
+    width: 35%;
+    margin-left: 6%;
 
 }
+#details h3 {
+    color: white;
+    font-weight: 550;
+    font-size: 1.2rem;
+}
+#form-container{
+    width: 50%;
+}
+#details p {
+    color: #d9dcdd;
+    font-size: 0.9rem;
+}
+.my-details-info-container {
+    margin-bottom: 20px;
+    color: #d9dcdd;
+    font-size: 1rem;
+}
+.my-details-info-container span {
+    margin-left: 0.4rem;
+}
+.my-details-info-container i {
+    color: white;
+}
+.my-details-icon {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: bottom;
+    margin-right: 0.5rem;
+}
+
+#contact-form input,
+textarea {
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    color: #d9dcdd;
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+#contact-form {
+    margin-left: 20%;
+}
+#contact-container {
+    display: flex;
+}
+#details {
+    width: 35%;
+    margin-left: 6%;
+}
+#contact-form button[type="submit"] {
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+#contact-form button:hover {
+    background: white;
+    color: #13386fe0;
+}
+
+#contact .social-icons li a i {
+    font-size: 1.2rem;
+    margin: 40px 10px 10px;
+    padding: 10px 14px 20px 10px;
+
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#social2 li:hover {
+    color: lightgray;
+    box-shadow: 0px 0px 4px 4px rgba(230, 196, 196, .5);
+    border-radius: 50%;
+}
+#social2 li {
+    margin: 8px 15px;
+    padding: 15px;
+}
+
+
+/* portfolio  */
+
+#portfolio {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #portfolio h2 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .portfolio-item {
+    width: 30%;
+    float: left;
+    margin: 0 2.5% 50px 2.5%;
+    text-align: center;
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+  }
+  
+  .portfolio-item h3 {
+    margin-top: 20px;
+  }
