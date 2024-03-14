@@ -1,0 +1,11 @@
+
+SQL
+PyTorch
+Data Structures
+Deep Learning
+Machine Learning
+Scikit-Learn
+TensorFlow
+React.js
+Microsoft Azure
+JavaScript
