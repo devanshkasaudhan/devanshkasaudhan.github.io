@@ -1,40 +1,37 @@
-Prologue by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+### Hi there 👋
 
+## I'm DEVANSH!
 
-This is Prologue, a simple, single page responsive site template. It features a
-clean, minimalistic design and a sticky sidebar with navigation-linked scrolling.
+## About Me
 
-Demo content images* are courtesy of the ridiculously talented Felicia Simion. Check out
-more of her amazing work over at deviantART:
+I am a passionate Data Scientist and Front End Developer with a background in Chemical Engineering. I love leveraging data-driven insights to solve complex problems and creating user-friendly applications. With a solid foundation in engineering principles and a keen interest in technology, I strive to continuously learn and grow in my field.
 
-http://ineedchemicalx.deviantart.com/
+## Skills
 
-(* = Not included! Only meant for use with my own on-site demo, so please do NOT download
-and/or use any of Felicia's work without her explicit permission!)
+- **Programming Languages**: Python, SQL, C++, JavaScript
+- **Data Science**: Scikit-learn, TensorFlow, Pandas, Matplotlib, Seaborn
+- **Web Development**: ReactJS, Sass/SCSS
+- **Cloud Technologies**: Microsoft Azure, Google Cloud
+- **Tools**: Excel, Tableau, Power BI, Git & GitHub
 
-Demo banner images* courtesy of Unsplash, a radtastic collection of CC0 (public domain)
-images you can use for pretty much whatever.
+## Experience
 
-(* = Not included)
+### Data Science & ML Internship, Ybi Foundation
+- Worked on various machine learning projects, gaining hands-on experience in algorithm implementation and model building.
 
-AJ
-aj@lkn.io | @ajlkn
+### Cloud Internship, Future Ready Talent
+- Learned Microsoft Azure, Power BI, and GitHub, and built projects using Azure web app and bot service.
 
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
+Feel free to reach out to me for collaboration opportunities or to discuss any projects or ideas!
 
+---
 
-Credits:
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=devanshkasaudhan&show_icons=true&locale=en" alt="devanshkasaudhan" /></p>
 
-	Demo Images:
-		Felicia Simion (ineedchemicalx.deviantart.com)
-		Unsplash (unsplash.com)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=devanshkasaudhan&layout=compact)](https://github.com/devanshkasaudhan)
 
-	Icons:
-		Font Awesome (fontawesome.io)
+## Authors
 
-	Other
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+- [DEVANSH KASAUDHAN](https://www.linkedin.com/in/devansh-kasaudhan-a071a4204/)
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/devanshkasaudhan)[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/devansh-kasaudhan-a071a4204/)[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40'>](https://www.instagram.com/devanshkasaudhan945/)[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg' alt='facebook' height='40'>](https://www.facebook.com/devanshkasaudhan945/)[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/leetcode.svg' alt='leetcode' height='40'>](https://leetcode.com/devanshkasaudhan12334/)
+<!--
