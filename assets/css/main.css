@@ -327,6 +327,7 @@ br.clear {
   margin: 0 auto;
   max-width: 100%;
   width: 1400px;
+  height: max-content;
 }
 
 @media screen and (min-width: 961px) and (max-width: 1880px) {
@@ -2834,3 +2835,4 @@ iframe {
   color: white;
   padding: 0 10px;
 }
+
